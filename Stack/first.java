@@ -8,6 +8,9 @@ public class first {
         st.push(10);
         st.push(20);
         st.push(30);
+        st.push(40);
+        st.push(50);    
+        st.push(20);
 
 
         // System.out.println("Stack elements: " + st);
@@ -24,8 +27,11 @@ public class first {
 
 
         // By using pop() -> for traversing the stack from top to bottom
-         while(!st.isEmpty()){
-            System.out.println(st.pop());
-        }
+
+        //  while(!st.isEmpty()){
+        //     System.out.println(st.pop());
+        // }
+
+        System.out.println("Position of 20 is: " + st.search(20)); // returns -1 if not found
 }
 }
